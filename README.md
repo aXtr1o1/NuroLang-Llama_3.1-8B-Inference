@@ -1,4 +1,4 @@
-# NuroLnag Q&A Inference System
+# NuroLang Llama 3.1-8B Q&A Inference System
 
 An AI-powered interactive Q&A system that generates follow-up questions using a fine-tuned LLaMA model. Built with Next.js frontend and FastAPI backend.
 
@@ -141,12 +141,6 @@ Frontend will run on `http://localhost:3000`
 
 ### Backend
 
-#### Health Check
-```
-GET /health
-```
-Response: `{"status": "ok"}`
-
 #### Generate Follow-up Question
 ```
 POST /inference
@@ -161,7 +155,7 @@ Content-Type: application/json
 Response:
 ```json
 {
-  "followUpQuestion": "Can you explain the difference between Java and Python?"
+  "followUpQuestion": "Great! You've got the basics right. Java is indeed platform-independent.Can you explain how Java achieves platform independence?"
 }
 ```
 
