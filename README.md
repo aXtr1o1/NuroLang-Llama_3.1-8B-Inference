@@ -141,12 +141,6 @@ Frontend will run on `http://localhost:3000`
 
 ### Backend
 
-#### Health Check
-```
-GET /health
-```
-Response: `{"status": "ok"}`
-
 #### Generate Follow-up Question
 ```
 POST /inference
