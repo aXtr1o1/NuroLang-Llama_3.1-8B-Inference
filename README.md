@@ -161,7 +161,7 @@ Content-Type: application/json
 Response:
 ```json
 {
-  "followUpQuestion": "Can you explain the difference between Java and Python?"
+  "followUpQuestion": "Great! You've got the basics right. Java is indeed platform-independent.Can you explain how Java achieves platform independence?"
 }
 ```
 
