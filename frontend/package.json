@@ -1,9 +1,12 @@
 {
-  "name": "qa-frontend",
+  "name": "qa-inference-frontend",
+  "version": "1.0.0",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "react": "^18.2.0",

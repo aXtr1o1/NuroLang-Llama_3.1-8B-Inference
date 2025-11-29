@@ -1,5 +1,5 @@
-import Chat from '../components/Chat'
+import QAInference from '../components/QAInference'
 
 export default function Home() {
-  return <Chat />
+  return <QAInference />
 }
