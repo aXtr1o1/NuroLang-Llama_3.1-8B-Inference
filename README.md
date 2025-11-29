@@ -1,4 +1,4 @@
-# NuroLnag Q&A Inference System
+# NuroLang Llama 3.1-8B Q&A Inference System
 
 An AI-powered interactive Q&A system that generates follow-up questions using a fine-tuned LLaMA model. Built with Next.js frontend and FastAPI backend.
 
